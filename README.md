@@ -1,24 +1,26 @@
 # Learning Strategy Recommendation System
 
-## 실행 방법
+## Requirements
 
-### 0) Node.js install
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-source ~/.zshrc
+- Python: `3.13.2` (current dev environment)
+- Node.js: installed locally (LTS recommended)
 
-# Node LTS install
-nvm install --lts
-nvm use --lts
+## How to use
 
 ### 1) Backend
+
+```bash
 cd backend
-python3 -m venv .<your project name>
-source .<your project name>/bin/activate
+python3 -m venv <project_name>
+source <project_name>/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
-
+```
 
 ### 2) Frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
