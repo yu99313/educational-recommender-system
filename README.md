@@ -2,8 +2,8 @@
 
 ## Requirements
 
-- Python: `3.13.2` (current dev environment)
-- Node.js: installed locally (LTS recommended)
+- Python: `3.13.2`
+- Install Node.js(LTS recommended)
 
 ## How to use
 
